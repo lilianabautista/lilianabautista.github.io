@@ -691,9 +691,9 @@
 .fa-cloud:before {
   content: "\f0c2";
 }
-.fa-flask:before {
+/*.fa-flask:before {
   content: "\f0c3";
-}
+}*/
 .fa-cut:before,
 .fa-scissors:before {
   content: "\f0c4";
