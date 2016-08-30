@@ -802,7 +802,7 @@
   content: "\f0e5";
 }
 .fa-comments-o:before {
-  content: "\f0e6";
+  content: url('../images/@stock/computer.png');
 }
 .fa-flash:before,
 .fa-bolt:before {
@@ -906,7 +906,7 @@
   content: "\f109";
 }
 .fa-tablet:before {
-  content: "\f10a";
+  content: url('../images/@stock/promos.png');
 }
 .fa-mobile-phone:before,
 .fa-mobile:before {
@@ -1522,7 +1522,10 @@
 }
 .fa-send-o:before,
 .fa-paper-plane-o:before {
-  content: "\f1d9";
+  content: url('../images/@stock/percentage.jpg');
+}
+.fa-cell-heart:before {
+  content: url('../images/@stock/flask.png');
 }
 .fa-history:before {
   content: "\f1da";
