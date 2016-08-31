@@ -885,7 +885,7 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-  width: 100%;
+  width: 140px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -931,7 +931,7 @@ ul.shortcode-list i {
   line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
-  width: 70%;
+  width: 98px;
 }
 
 .contain-to-grid.fullwidth .top-bar {
@@ -3139,15 +3139,15 @@ body {
   font-size: 36px;
   color: #333;
   background: #F9CE06;
-  width: 90px;
-  height: 90px;
-  -moz-border-radius: 45px;
-  -webkit-border-radius: 45px;
-  border-radius: 45px;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
   text-align: center;
-  padding: 27px;
+  padding: 12px;
   display: inline-block;
-  margin-bottom: 45px;
+  margin-bottom: 0px;
 }
 .modMilestone strong {
   font-size: 3.42857rem;
@@ -3648,7 +3648,7 @@ body {
     height: auto;
   }
   .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-    width: auto;
+    width: 140px;
   }
   .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
     height: 60px;
@@ -3726,7 +3726,7 @@ body {
     width: auto;
   }
   .f-topbar-fixed.shrink .top-bar .title-area a img {
-    width: auto;
+    width: 98px;
   }
 }
 @media only screen and (max-width: 767px) {

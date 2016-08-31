@@ -265,7 +265,7 @@
   content: "\f022";
 }
 .fa-lock:before {
-  content: "\f023";
+  content: url('../images/@stock/br.png');
 }
 .fa-flag:before {
   content: "\f024";
@@ -526,7 +526,7 @@
   content: "\f07b";
 }
 .fa-folder-open:before {
-  content: "\f07c";
+  content: url('../images/@stock/commercial.png');
 }
 .fa-arrows-v:before {
   content: "\f07d";
@@ -552,7 +552,7 @@
 }
 .fa-gears:before,
 .fa-cogs:before {
-  content: "\f085";
+  content: url('../images/@stock/digital-promos.png');
 }
 .fa-comments:before {
   content: "\f086";
@@ -585,7 +585,7 @@
   content: "\f090";
 }
 .fa-trophy:before {
-  content: "\f091";
+  content: url('../images/@stock/loyalty.png');
 }
 .fa-github-square:before {
   content: "\f092";
@@ -843,7 +843,7 @@
   content: "\f0a2";
 }
 .fa-coffee:before {
-  content: "\f0f4";
+  content: url('../images/@stock/bussinessi.png');
 }
 .fa-cutlery:before {
   content: "\f0f5";
@@ -1150,7 +1150,7 @@
   content: "\f15b";
 }
 .fa-file-text:before {
-  content: "\f15c";
+  content: url('../images/@stock/magento.png');
 }
 .fa-sort-alpha-asc:before {
   content: "\f15d";
@@ -1171,7 +1171,7 @@
   content: "\f163";
 }
 .fa-thumbs-up:before {
-  content: "\f164";
+  content: url('../images/@stock/dp.png');
 }
 .fa-thumbs-down:before {
   content: "\f165";
@@ -1285,7 +1285,7 @@
   content: "\f18b";
 }
 .fa-pagelines:before {
-  content: "\f18c";
+  content: url('../images/@stock/redem.png');
 }
 .fa-stack-exchange:before {
   content: "\f18d";
@@ -1673,4 +1673,7 @@
 }
 .fa-meanpath:before {
   content: "\f20c";
+}
+.fa-loyalty:before {
+  content: url('../images/@stock/loyalty-wallet.png');
 }
