@@ -4,12 +4,12 @@
 - name: Nosotros
   path: about.html
   section_id: about
-# - name: Services
-#   path: services.html
-#   section_id: services
-# - name: Portfolio
-#   path: portfolio.html
-#   section_id: portfolio
+- name: Servicios
+  path: servicios
+  section_id: services
+- name: Trayectoria
+  path: trayectoria
+  section_id: portfolio
 #   children:
 #     - name: Portfolio
 #       path: portfolio.html
