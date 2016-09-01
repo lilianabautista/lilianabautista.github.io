@@ -15,7 +15,7 @@ slides:
       items:
         - klass: boxed
           text: Ver más
-          link_to: /about.html
+          link_to: servicios
         - text: Contáctanos
           link_to: /contact.html
   - bg: images/@stock/slide-5.jpg
@@ -29,7 +29,7 @@ slides:
       klass: bottom-to-top
       items:
         - text: Conoce más
-          link_to: /services.html
+          link_to: servicios
   - bg: images/@stock/slide-1.jpg
     small_title:
       klass: bottom-to-top
@@ -41,7 +41,7 @@ slides:
       klass: bottom-to-top
       items:
         - text: Conoce más
-          link_to: /services.html
+          link_to: servicios
 
 
 
@@ -62,7 +62,7 @@ works:
     title: Landing Pages Promocionales
     klass: graphi-design
   - image: images/@stock/co-branding-promo.jpg
-    title: Promocionales Co-Branding
+    title: Promociones Co-Branding
     klass: graphi-design
   - image: images/@stock/programa-lealtad.jpg
     title: Programas de Lealtad
@@ -149,7 +149,11 @@ milestones:
               <div class='large-12 columns'>
                 <div class='two spacing'></div>
                 {% for button in slide.buttons.items %}
+                  {% if button.link_to == 'servicios' %}
+                  <a class='button {{ button.klass }}' href='#{{ button.link_to }}'>{{ button.text }}</a>
+                  {% else %}
                   <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                  {% endif %}
                 {% endfor %}
               </div>
             </div>
