@@ -3827,3 +3827,6 @@ body {
         display: none;
     }
 }
+button:hover, button:focus, .button:hover, .button:focus{
+    background-color:#00a499;
+}
