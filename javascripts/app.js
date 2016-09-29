@@ -73,7 +73,7 @@ jQuery(document).foundation();
       messages: { },
       submitHandler: function(form) {
         $.ajax({
-          type: 'POST',
+          type: '-GET',
           url: 'send.php',
           data: $(form).serialize(),
           success: function(data) {
@@ -668,7 +668,7 @@ jQuery(document).foundation();
           });
 
           msnry.prepended(elems);
-
+RESUMEN
         } else {
 
           $('li', gallery).each(function() {
