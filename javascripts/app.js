@@ -73,7 +73,7 @@ jQuery(document).foundation();
       messages: { },
       submitHandler: function(form) {
         $.ajax({
-          type: '-GET',
+          type: 'GET',
           url: 'send.php',
           data: $(form).serialize(),
           success: function(data) {
